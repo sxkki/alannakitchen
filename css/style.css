@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'Anton';
+  src: url(/Anton/Anton-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #19191b;
+  background-size: cover;
+  font-family: 'Anton';
+  font-weight: normal;
+  padding: 20px;
+}
+
+/* TITLE AND LOGO */
+.logo-top h1 {
+  text-align: center;
+  color: #cb9c10;
+  font-size: 45px;
+}
+
+.logo-top img {
+  display: block;
+  padding: auto;
+  width: 160px;
+  margin: 5px auto 0 auto;
+  padding-top: 10px;
+}
+
+/* MENU */
+
+
+
+.menu {
+  width: 100%;
+  background-color: #19191b;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 15px;
+  max-width: 1080px;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px 10px  #000;
+}
+
+.empanadas {
+  width: 150px;
+}
+
+.sdwch{
+  width: 200px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.burger {
+  width: 200px;
+}
+
+.fries {
+  margin-top: 30px;
+  width: 200px;
+}
+
+.dogs {
+  width: 200px;
+}
+
+button {
+  background-color: #cb9c10;
+  color: #000;
+}
+
+h1,
+h2{
+  font-size: 38px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+hr {
+  height: 2px;
+  background-color: gray;
+  border-color: gray;
+  border-radius: 30px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 28px;
+
+}
+
+.description {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  color: #f2f2f2;
+
+}
+
+.flavor {
+  text-align: left;
+  width: 74%;
+  color: #f2f2f2;
+
+}
+
+.price {
+  text-align: right;
+  width: 20%;
+  color: #cb9c10;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 22px;
+  color: #eacdbc;
+}
+
+.adress {
+  margin-bottom: 5px;
+}
+
+.img-ig {
+  width: 30px;
+}
+
+a {
+  color: #eacdbc;
+}
+
+a:visited {
+  color: #eacdbc;
+}
+
+a:hover {
+  color: #eacdbc;
+}
+
+a:active {
+  color: #eacdbc;
+}
+
+/* RESPONSIVE */
+@media (max-width:590px) {
+
+
+body {
+  background-color: #19191b;
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* TITLE AND LOGO */
+.logo-top h1 {
+  text-align: center;
+  color: #cb9c10;
+}
+
+.logo-top img {
+  display: block;
+  padding: auto;
+  width: 160px;
+  margin: 5px auto 0 auto;
+}
+
+/* MENU */
+
+.menu {
+  width: 100%;
+  background-color: #19191b;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 5px;
+  padding-bottom: 2px;
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px 10px  #000;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #f2f2f2;
+}
+
+hr {
+  height: 2px;
+  background-color: gray;
+  border-color: gray;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 26px;
+}
+
+.description {
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.flavor {
+  text-align: left;
+  width: 74%;
+}
+
+.price {
+  text-align: right;
+  width: 20%;
+  color: #cb9c10;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 18px;
+}
+
+.adress {
+  margin-bottom: 5px;
+}
+
+.adress img {
+  width: 13;
+}
+
+a {
+  color: #eacdbc;
+}
+
+a:visited {
+  color: #eacdbc;
+}
+
+a:hover {
+  color: #eacdbc;
+}
+
+a:active {
+  color: #eacdbc;
+}
+}
