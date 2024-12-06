@@ -135,19 +135,19 @@ footer {
 }
 
 a {
-  color: #eacdbc;
+  color: #f2f2f2;
 }
 
 a:visited {
-  color: #eacdbc;
+  color: #f2f2f2;
 }
 
 a:hover {
-  color: #eacdbc;
+  color: #f2f2f2;
 }
 
 a:active {
-  color: #eacdbc;
+  color: #f2f2f2;
 }
 
 /* RESPONSIVE */
@@ -242,19 +242,4 @@ footer {
   width: 13;
 }
 
-a {
-  color: #eacdbc;
-}
-
-a:visited {
-  color: #eacdbc;
-}
-
-a:hover {
-  color: #eacdbc;
-}
-
-a:active {
-  color: #eacdbc;
-}
 }
